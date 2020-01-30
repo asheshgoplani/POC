@@ -17,6 +17,7 @@ class App extends Component {
     this.refs.name.focus();
     this.getdata();
   }
+
   //Read
   getdata = e => {
     axios
